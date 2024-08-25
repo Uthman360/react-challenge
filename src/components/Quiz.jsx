@@ -130,7 +130,7 @@ const Quiz = ({ quizData }) => {
                 </>
             )}
 
-            <ScoreDisplay currentScorePercentage={currentScorePercentage} maxScorePercentage={maxScorePercentage} minScorePercentage={minScorePercentage} />
+            <ScoreDisplay currentScorePercentage={currentScorePercentage} maxScorePercentage={maxScorePercentage} />
         </div>
     );
 };
