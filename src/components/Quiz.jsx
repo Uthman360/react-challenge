@@ -26,7 +26,6 @@ const Quiz = ({ quizData }) => {
         ((score + (totalQuestions - questionsAnswered)) / totalQuestions) * 100,
         100
     );
-    const minScorePercentage = (score / totalQuestions) * 100;
 
     const handleAnswerOptionClick = (selectedOption) => {
         if (clickedOption) return;
