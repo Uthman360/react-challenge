@@ -54,6 +54,7 @@
   overflow: hidden;
   width: 50%;
   margin: auto;
+  border: 2px solid #000;
 }
 
 .progress-bar-header {
@@ -62,6 +63,8 @@
   /* Black overlay */
   transition: width 0.3s ease;
   /* Smooth transition */
+  border: 2px solid #888;
+
 }
 
 .score-wrapper {
